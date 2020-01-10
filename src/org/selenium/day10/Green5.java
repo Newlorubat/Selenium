@@ -1,10 +1,8 @@
 package org.selenium.day10;
 
-import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.File;
-import java.io.IOException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -19,7 +17,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class Green5 {
 
-	public static void main(String[] args) throws AWTException, IOException {
+	public static void main(String[] args) throws Throwable {
 
 
 		System.setProperty("webdriver.chrome.driver","D:\\Selenium\\chromedriver_win32\\chromedriver.exe");
