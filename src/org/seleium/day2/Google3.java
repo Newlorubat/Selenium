@@ -13,7 +13,7 @@ public class Google3 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		WebElement txtSearch = driver.findElement(By.name("q"));
-		txtSearch.sendKeys("GreensTechnology");
+		txtSearch.sendKeys("GreensTechnology Private limited");
 		
 	}
 
